@@ -1,0 +1,17 @@
+###C++：名字都有作用域，对象都有生命周期
+1. [混淆点](confusion.md)
+1. [字符串](string.md)
+1. [stl学习](stl/README.md)
+1. [static](static.md)
+1. [调试输出信息](debug.md)
+1. [C++11](C++11.md)
+1. [文件操作](file_operation.md)
+1. [类信息](class.md)
+1. [单例模式](singleton.md)
+1. [智能指针](ptr.md)
+1. [模板](temp.md)
+1. [异常](exception.md)
+1. [日常积累](study.md)
+1. [C_relatives](C_relatives/README.md)
+
+[返回目录](../SUMMARY.md)
