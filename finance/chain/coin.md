@@ -1,5 +1,5 @@
 近期：
-soc
+soc、eos
 长期：
 zil、ada、iost、yee、ruff
 <hr>
