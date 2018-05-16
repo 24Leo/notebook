@@ -1,7 +1,7 @@
 近期：
 soc
 长期：
-zil、ada、iost、yee
+zil、ada、iost、yee、ruff
 <hr>
 * ont别碰，有营销，但是只有营销 
 * iost提前上主链：19年1季度提前到18年4季度
