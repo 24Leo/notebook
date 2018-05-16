@@ -1,5 +1,5 @@
 近期：
-soc、ruff、ada、zil
+soc、ruff
 
 <hr>
 * ont别碰，有营销，但是只有营销 
