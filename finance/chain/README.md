@@ -3,6 +3,7 @@
 * [基础](base.md)
 * [中心化角色-交易所](jiaoyisuo.md)
 * [币信息](coin.md)
+* [未来](future.md)
 
 ****************
 
