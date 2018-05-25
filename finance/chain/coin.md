@@ -1,7 +1,7 @@
 近期：
 soc、eos
 长期：
-zil、ada、iost、yee、ruff
+zil、ada、iost、yee、ruff、safe
 <hr>
 * ont国家工商采用，解决信任问题---有可能
 * iost提前上主链：19年1季度提前到18年4季度
