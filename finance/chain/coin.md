@@ -7,7 +7,7 @@ AE、ada、zil、iost、ruff
 长期埋伏：yee、safe、blz
 
 随时调整：
-5月占比：AE（4）、ADA（2）、ZIL（1）、BLZ（1）、YEE（1）、RUFF（0.5）、safe（0.5）
+5月占比：AE（4）、ADA（2）、ZIL（1）、BLZ（1）、YEE（0.5）、RUFF（0.5）、safe（1）
     * 在10月份前，ADA要高一点，虚拟机比较重要---程序员开发落地
 
 
