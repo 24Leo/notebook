@@ -1,7 +1,11 @@
+theta可以考虑下，才涨了3倍ICO
+
 近期：
 soc、eos
 长期：
-AE、ada、zil、iost、yee、ruff、safe
+AE、ada、zil、iost、ruff
+长期埋伏：yee、safe、blz
+
 <hr>
 * ont国家工商采用，解决信任问题---有可能
 * iost提前上主链：19年1季度提前到18年4季度
