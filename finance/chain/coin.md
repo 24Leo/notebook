@@ -6,6 +6,10 @@ soc、eos
 AE、ada、zil、iost、ruff
 长期埋伏：yee、safe、blz
 
+随时调整：
+AE（5）、ADA（2）、ZIL（1）、BLZ（1）、YEE（1）
+
+
 <hr>
 * ont国家工商采用，解决信任问题---有可能
 * iost提前上主链：19年1季度提前到18年4季度
