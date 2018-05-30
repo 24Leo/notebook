@@ -7,7 +7,7 @@ AE、ada、zil、iost、ruff
 长期埋伏：yee、safe、blz
 
 随时调整：
-AE（4）、ADA（3）、ZIL（1）、BLZ（1）、YEE（1）
+AE（4）、ADA（2.5）、ZIL（1）、BLZ（1）、YEE（1）、RUFF（0.5）
 
 
 <hr>
