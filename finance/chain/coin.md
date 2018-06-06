@@ -5,6 +5,7 @@ soc、eos
 长期：
 AE、ada、zil、ruff、iost
 长期埋伏：yee、safe、blz
+回调加仓：EOS
 
 随时调整：
 5月占比：AE（4）、ADA（2）、ZIL（1）、YEE（1）、safe（1）、RUFF（0.5）、BLZ（0.5）
