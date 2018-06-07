@@ -35,7 +35,7 @@ AE：小额支付、分布式金融应用、跨链交互各自采用的技术语
     * EOS、ADA、XLM、OMG、ICX、ZIL、AE、ZRX、ENG、BLZ
 
 wild：
-    * eos，ada，xlm，omg，icx，zil，ae，zrx，btm，blz
+    * EOS，ADA，XLM，OMG，ICX，ZIL，AE，ZRX，BTM，BLZ
 
 
 [return](README.md)
