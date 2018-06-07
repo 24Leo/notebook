@@ -16,6 +16,7 @@
 1. [内存分配](memory.md)
 1. [Hash值](sha.md)
 1. [ssh & key 等安全](ssh.md)
+1. [加解密算法](encrypt/README.md)
 1. [c和linux相关](./../C++/C_relatives/README.md)
 
 [返回目录](../SUMMARY.md)
