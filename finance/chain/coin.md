@@ -9,7 +9,6 @@ theta可以考虑下，才涨了3倍ICO（等回落）
 5月占比：AE（4）、ADA（2）、ZIL（1）、YEE（1）、safe（1）、RUFF（0.5）、BLZ（0.5）
     * 在10月份前，ADA要高一点，虚拟机比较重要---程序员开发落地
 
-
 <hr>
 * ont国家工商采用，解决信任问题---有可能
 * iost提前上主链：19年1季度提前到18年4季度
@@ -32,7 +31,11 @@ AE：小额支付、分布式金融应用、跨链交互各自采用的技术语
     * 相对与以上三种，有些弱势，但毕竟是一个主链而且有一定影响，短期以观察为主，可以适当配置。
 
 
+狂人推荐10个：
+    * EOS、ADA、XLM、OMG、ICX、ZIL、AE、ZRX、ENG、BLZ
 
+wild：
+    * eos，ada，xlm，omg，icx，zil，ae，zrx，btm，blz
 
 
 [return](README.md)
