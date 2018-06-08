@@ -8,7 +8,9 @@
 | ECB | 无 | PKCS5, PKCS7, NOPADDING | |
 | CBC | 需要 | PKCS5, PKCS7, NOPADDING | |
 | CFB | 需要 | PKCS5, PKCS7, NOPADDING | |
-
+####IV
+####PADDING
+####
 **************
 
 
