@@ -3,11 +3,11 @@
 
 我们今天重点介绍的AES就是对称加密算法的新秀，也是目前可获得的**最安全的加密算法**
 ####概览
-| 模式 | IV | PADDING | 备注 | |
-| - | - | - | - | - |
-| ECB | | | | |
-| CBC | | | | |
-| CFB | | | | |
+| 模式 | IV | PADDING | 备注 |
+| - | - | - | - |
+| ECB | 无 | PKCS5, PKCS7, NOPADDING | |
+| CBC | 需要 | PKCS5, PKCS7, NOPADDING | |
+| CFB | 需要 | PKCS5, PKCS7, NOPADDING | |
 
 **************
 
