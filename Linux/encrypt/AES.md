@@ -8,6 +8,7 @@
 | ECB | 无 | PKCS5, PKCS7, NOPADDING | |
 | CBC | 需要 | PKCS5, PKCS7, NOPADDING | |
 | CFB | 需要 | PKCS5, PKCS7, NOPADDING | |
+对于加密模式就不详细介绍了因为涉及到底层原理，有兴趣可以查看[链接](https://blog.csdn.net/chence19871/article/details/27653805)。
 ####IV
 ####PADDING
 ####
