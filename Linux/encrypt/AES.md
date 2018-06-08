@@ -26,7 +26,28 @@ AES分为几种模式，比如ECB，CBC，CFB等等，这些模式除了ECB由�
 * 对于加密端，应该包括：加密秘钥长度，秘钥，IV值，加密模式，PADDING方式。 
 * 对于解密端，应该包括：解密秘钥长度，秘钥，IV值，解密模式，PADDING方式。
 
+```nodejs
+var crypto = require("crypto");
 
+var algorithm='aes-256-cbc';
+var key = new Buffer("aaaabbbbccccddddeeeeffffgggghhhh");
+var iv = new Buffer("1234567812345678");
+function encrypt(text){
+    var cipher=crypto.createCipheriv(algorithm,key,iv);
+    cipher.update(text,"utf8");
+    return cipher.final("base64");
+}
+function decrypt(text){
+    var cipher=crypto.createDecipheriv(algorithm,key,iv);
+    cipher.update(text,"base64");
+    return cipher.final("utf8");
+}
+
+var text="ni你好hao";
+var encoded=encrypt(text)
+console.log(encoded);
+console.log(decrypt(encoded))
+```
 
 **********
 
