@@ -3,7 +3,6 @@ theta可以考虑下，才涨了3倍ICO（等回落）
 近期：soc
 长期：AE、ada、zil、BTM、ruff、iost
 埋伏：yee、safe、blz
-回调加仓：EOS
 
 随时调整：
 5月占比：AE（4）、ADA（2）、ZIL（1）、YEE（1）、safe（1）、RUFF（0.5）、BLZ（0.5）
