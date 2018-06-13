@@ -1,7 +1,7 @@
 theta可以考虑下，才涨了3倍ICO（等回落）
 
 近期：soc
-长期：AE、ada、zil、ruff、iost、BTM
+长期：AE、ada、zil、BTM、ruff、iost
 埋伏：yee、safe、blz
 回调加仓：EOS
 
