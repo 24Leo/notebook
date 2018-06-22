@@ -260,7 +260,7 @@ awk [para] 'BEGIN{} {command-list} END{}' file
 | awk  -F: '{print $1,$3,$6}' OFS="\t" /etc/passwd | //输出字段1,3,6，分隔符，‘：’ 以及‘\t’ ||
 | awk '!/mysql/{print $0}' /etc/passwd  | 输出不匹配mysql的行 ||
 | awk -F":" '{if($1=="mysql") print $3}' /etc/passwd | 第一个子段mysql，则输出第三个 ||
--F[: ]表示指定分隔符可以是:或者 （空格） 这里指定多个分隔符,如果后缀+代表多个：awk -F '[: ]+'
+-F[: ]表示指定分隔符可以是:或者 （空格） 这里指定多个分隔符,如果后缀+代表多个如awk -F '[: ]+'
 [awk参考](http://man.linuxde.net/awk)
 
 ##sort
