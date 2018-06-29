@@ -1,5 +1,5 @@
 长期：AE、zil、BLZ、BTM、ada、ruff、iost
-埋伏：yee、safe、blz
+埋伏：yee、safe
 
 随时调整：
 5月占比：AE（4）、ADA（2）、ZIL（1）、YEE（1）、safe（1）、RUFF（0.5）、BLZ（0.5）
