@@ -4,5 +4,9 @@ robots.txt里放上钓鱼连接: 正常的搜索引擎不会去访问，不遵�
 
 ua、refer、cookie
 
+页面内容由js生成，不直接写明href链接
+
+
+
 
 [return](README.md)
