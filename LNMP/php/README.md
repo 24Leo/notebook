@@ -7,5 +7,6 @@
 * [PHP-底层](mem.md)
 * [SSO-CAS](cas.md)
 * [php-core](core/README.md)
+* [稳定性建设](wending/README.md)
 
 [返回目录](../README.md)
