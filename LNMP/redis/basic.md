@@ -1,6 +1,8 @@
 ##安装
 ```C 
 brew install redis (brew uninstall redis rm ~/Library/LaunchAgents/homebrew.mxcl.redis.plist  )
+
+yum install redis  yum install epel-release
 ```
 ####启动
 ```C
