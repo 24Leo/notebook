@@ -22,6 +22,7 @@ MySQL/InnoDB源码中，有很多注释，一些注释相当详细，对理解�
 1. [学习](learn.md)
 * [优化](youhua.md)
 * [mysql-连接与线程](conn_t.md)
+* [](exam.md)
 
 
 [返回目录](../README.md)
