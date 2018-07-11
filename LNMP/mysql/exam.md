@@ -4,6 +4,7 @@
 * 一个标签有多个文章
 
 #### 简单方案
+##### 方案1
 1. 文章表    ： aid => content
     * 记录文章ID和文章信息
 2. 标签表    ： tid => tagname
@@ -13,6 +14,7 @@
     * 5个文章，3个标签，共15条记录。。。
     * 如果文章特别多，标签也特别多--------冗余
     * 另外多个标签一起查询怎么办？
+#####方案2
 
 #### 进阶方案
 听说过es吗？[ES](https://www.elastic.co/guide/cn/elasticsearch/guide/current/foreword_id.html)
