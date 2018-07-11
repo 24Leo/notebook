@@ -13,4 +13,4 @@
     * 5个文章，3个标签，共15条记录
 
 #### 进阶方案
-听说过es吗？
+听说过es吗？[ES](https://www.elastic.co/guide/cn/elasticsearch/guide/current/foreword_id.html)
