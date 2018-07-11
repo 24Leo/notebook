@@ -1,3 +1,5 @@
+参数：
+```C++
 -A/--user-agent <string>              设置用户代理发送给服务器
 -b/--cookie <name=string/file>        cookie字符串或文件读取位置
 -c/--cookie-jar <file>                操作结束后把cookie写入到这个文件中
@@ -15,3 +17,4 @@
 -w/--write-out [format]               什么输出完成后
 -x/--proxy <host[:port]>              在给定的端口上使用HTTP代理
 -#/--progress-bar                     进度条显示当前的传送状态
+```
