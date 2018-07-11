@@ -18,3 +18,4 @@
 -x/--proxy <host[:port]>              在给定的端口上使用HTTP代理
 -#/--progress-bar                     进度条显示当前的传送状态
 ```
+例子：
