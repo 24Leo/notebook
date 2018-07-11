@@ -10,7 +10,8 @@
     * 记录标签ID和标签信息
 3. 文章和标签映射表   : mid => aid,tid
     * 记录标签ID和文章ID
-    * 5个文章，3个标签，共15条记录。。。冗余
+    * 5个文章，3个标签，共15条记录。。。
+    * 如果文章特别多，标签也特别多--------冗余
 
 #### 进阶方案
 听说过es吗？[ES](https://www.elastic.co/guide/cn/elasticsearch/guide/current/foreword_id.html)
