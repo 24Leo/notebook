@@ -12,6 +12,7 @@
     * 记录标签ID和文章ID
     * 5个文章，3个标签，共15条记录。。。
     * 如果文章特别多，标签也特别多--------冗余
+    * 另外多个标签一起查询怎么办？
 
 #### 进阶方案
 听说过es吗？[ES](https://www.elastic.co/guide/cn/elasticsearch/guide/current/foreword_id.html)
