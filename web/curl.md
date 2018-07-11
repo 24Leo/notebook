@@ -19,3 +19,7 @@
 -#/--progress-bar                     进度条显示当前的传送状态
 ```
 例子：
+```
+curl -d "bid=583121d130&tpl=qianbao&sign=dcff62612543daf7485daca66ae15e3111e"
+   "http://mis.daikuan.baidu.com/v/openapi/loan/order/getorderinfo" --cookie "orp_preview=1"
+```
