@@ -19,7 +19,7 @@
 两张表：
 1. 文章表
 2. tag表：一个tag对应的文章列表。
-    * select * from articles where article_id in (select distinct(article_id) from tags where tags in ('tag1','tag2','tag3')) limit n
+    * ```select * from articles where article_id in (select distinct(article_id) from tags where tags in ('tag1','tag2','tag3')) limit n; ```
 
 #### 进阶方案
 听说过es吗？[ES](https://www.elastic.co/guide/cn/elasticsearch/guide/current/foreword_id.html)
