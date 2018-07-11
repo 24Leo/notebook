@@ -20,6 +20,6 @@
 ```
 例子：
 ```
-curl -d "bid=583121d130&tpl=qianbao&sign=dcff62612543daf7485daca66ae15e3111e"
-   "http://mis.daikuan.baidu.com/v/openapi/loan/order/getorderinfo" --cookie "orp_preview=1"
+curl -d "bsdad=5821d130&sign=dcff62fds53redfcxaca66ae15e3111e"
+"http://www.baidu.com/XXX" --cookie "orp_preview=1"
 ```
