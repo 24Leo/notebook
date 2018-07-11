@@ -16,6 +16,9 @@
     * 另外多个标签一起查询怎么办？
     
 #####方案2
+两张表：
+1. 文章表
+2. tag表：一个tag对应的文章列表。
 
 #### 进阶方案
 听说过es吗？[ES](https://www.elastic.co/guide/cn/elasticsearch/guide/current/foreword_id.html)
