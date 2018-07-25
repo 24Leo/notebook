@@ -27,7 +27,13 @@ yum install redis  yum install epel-release
         $redis->set('test',"11111111111");  
         $result = $redis->get('test');  
         var_dump($result);  
-        ```  
+        ``` 
+ 
+####时延
+![](/assets/3058512795-56763f622894f_articlex.png)
+
+####方案
+![](/assets/2939844570-567640281dcc5_articlex.png)
 
 
 [return](README.md)
