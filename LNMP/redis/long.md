@@ -92,7 +92,8 @@ def BGSAVE():
     * 同步master
     * 生成rdb、aof文件
         * 这样主服务器就不需要生成快照、dump文件了，不会抢占IO。
-主服务器就用来处理请求，某个slave专门备份～～～
+
+主服务器就用来处理更新请求，某个slave专门备份，剩下slave专门处理读请求～～～
 
 
 [return](README.md)
