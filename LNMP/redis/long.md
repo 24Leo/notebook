@@ -30,21 +30,20 @@ Redis对客户端响应请求的工作模型是单进程和单线程的。
 #####伪代码
 ```python
 def SAVE():
-rdbSave()
+    rdbSave()
  
 def BGSAVE():
-pid = fork()
-if pid == 0:
-# 子进程保存RDB
-rdbSave()
-elif pid > 0:
-# 父进程继续处理请求，并等待子进程的完成信号
-handle_request()
-else:
-# pid == -1
-# 处理fork 错误
-handle_fork_error()
-
+    pid = fork()
+    if pid == 0:
+        # 子进程保存RDB
+        rdbSave()
+    elif pid > 0:
+        # 父进程继续处理请求，并等待子进程的完成信号
+        handle_request()
+    else:
+        # pid == -1
+        # 处理fork 错误
+        handle_fork_error()
 ```
 ###AOF
 ###对比
