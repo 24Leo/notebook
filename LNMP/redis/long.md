@@ -46,6 +46,9 @@ def BGSAVE():
         # 处理fork 错误
         handle_fork_error()
 ```
+####优缺点
+#####优点
+#####缺点
 ###AOF
 ###对比
 
