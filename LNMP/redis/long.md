@@ -31,7 +31,7 @@ Redis对客户端响应请求的工作模型是单进程和单线程的。
 ```python
 def SAVE():
     rdbSave()
- 
+   
 def BGSAVE():
     pid = fork()
     if pid == 0:
