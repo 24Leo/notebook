@@ -15,7 +15,7 @@
 * [Web基础](web/README.md)
 * [Django初步](django/README.md)
 * [翻墙](FQ.md)
-* [LNMP](LNMP/README.md)
+* [LNMPR](LNMP/README.md)
 * [IOS-tips](IOStips.md)
 * [金融](finance/README.md)
 * [TBD](tbd.md)
