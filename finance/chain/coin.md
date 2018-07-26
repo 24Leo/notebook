@@ -6,7 +6,7 @@
 
 
 
-长期：AE、zil、BLZ、BTM、ada、ruff、iost
+长期：AE、zil、BLZ、BTM、ada、iost、ruff
 埋伏：yee、safe
 
 随时调整：
