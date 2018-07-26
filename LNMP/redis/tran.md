@@ -40,6 +40,7 @@
 * 异常
     * multi之前，很好理解都不执行
     * multi之后exec之前，
+        * 直接discard
     * exex之后，所有都会执行～
 * 特性
     * A 
