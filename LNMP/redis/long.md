@@ -6,7 +6,7 @@ Redis对客户端响应请求的工作模型是单进程和单线程的。
 * RDB模式下就是生成一个数据库的快照snapshot，默认名dump.rdb。
 * 频率：
     * 在redis.conf中可以配置
-        * save 900 1 。代表每900S内至少1个key更改即需要快照
+        * save 900 1 ： 代表每900S内至少1个key更改即需要快照
     * 手动出发save、bgsave命令
 
 ###AOF
