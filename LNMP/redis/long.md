@@ -9,7 +9,8 @@ Redis对客户端响应请求的工作模型是单进程和单线程的。
         * save 900 1 ： 代表每900S内至少1个key更改即需要快照
     * 手动出发save、bgsave命令
     * 如果配置save "" 或者手动 save "" ，那么会停止快照
-* 
+* save、bgsave
+    * save直接在主进程生成快照文件并且fsync到磁盘
 
 ###AOF
 ###对比
