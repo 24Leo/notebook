@@ -29,6 +29,7 @@ Redis对客户端响应请求的工作模型是单进程和单线程的。
 
 #####伪代码
 ```python
+// rdbSave是阻塞的～
 def SAVE():
     rdbSave()
    
