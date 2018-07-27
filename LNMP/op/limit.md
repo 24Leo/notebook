@@ -164,7 +164,8 @@ public class tokenDemo {
     * 第一次验证码判定正确后，我们不可能接下来对每一次访问都进行验证码处理。所以第一次验证码判定后，生效时间段的制定、两次验证码之间间隔设定都需要后端处理实现。
     * ![](/assets/linit.png)
 
-* 令牌桶算法google guava实现：https://github.com/google/guava/blob/master/guava/src/com/google/common/util/concurrent/RateLimiter.java
-* 令牌桶算法golang实现： https://github.com/juju/ratelimit				
+
+* [令牌桶算法google guava实现](https://github.com/google/guava/blob/master/guava/src/com/google/common/util/concurrent/RateLimiter.java)
+* [令牌桶算法golang实现](https://github.com/juju/ratelimit)				
 												
 [return](README.md)
