@@ -73,6 +73,7 @@ public class LeakyDemo {
         $this->capacity = 100;
         $this->outRate  = 1;
         $this->curWate  = 0;
+        $this->startTime = now();
     }
     
     public function grant() {
@@ -87,9 +88,21 @@ public class LeakyDemo {
     }
 }
 ```
+因此漏斗算法能够保证后端服务以恒定的速率获得请求（类似于温室，不用管外部流量是否异常），所以不用担心临界问题。
     
 ###令牌桶
-
+令牌桶算法，又称token bucket，还是继续看下维基百科介绍：
+图片
+从上可以看到令牌桶算法比漏斗算法要复杂：我们有一个恒定大小且以恒定速率加令牌的桶。如果令牌数超过桶大小就抛弃，每个请求过来可以拿走桶里的令牌，如果没有得到足够令牌就被限流抛弃。
+####代码实现
+```php
+public class tokenDemo {
+    public $capacity;
+    public $inRate;
+    public $curToken;
+    public    
+}
+```
 ### 标准方案
 常见的爬虫有如下规律：
     * 单一IP非常规的访问频次、不合理的流量
