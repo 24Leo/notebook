@@ -6,5 +6,6 @@
 * [Redis](redis/README.md)
 * [BRPC](brpc/README.md)
 * [不合适](band.md)
+* [稳定性](op/README.md)
 
 [返回目录](../SUMMARY.md)
