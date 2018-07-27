@@ -74,6 +74,5 @@ public class CounterDemo {
     * add_header
 * 用户判定后生效时间段确定？
     * 第一次验证码判定正确后，我们不可能接下来对每一次访问都进行验证码处理。所以第一次验证码判定后，生效时间段的制定、两次验证码之间间隔设定都需要后端处理实现。
-    * ![](/assets/linit.png)
 
 [return](README.md)
