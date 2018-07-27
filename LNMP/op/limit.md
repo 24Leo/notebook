@@ -101,7 +101,21 @@ public class tokenDemo {
     public $capacity;
     public $inRate;
     public $curToken;
-    public    
+    public $startTime;
+    
+    public function __construct () {
+        $this->capacity = 1000;
+        $this->inRate   = 5;
+        $this->curToken = 0;
+        $this->startTime = now();
+    }
+    
+    public function grant () {
+        $now = now();
+        // 先执行添加token，然后计算token个数
+        $this->curToken = min($this->curToken, ($now - $this->startTime) * $this->inRate);
+        if ($this->curToken + $this->inRate > )
+    }
 }
 ```
 ### 标准方案
