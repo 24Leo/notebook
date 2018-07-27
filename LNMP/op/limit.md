@@ -57,7 +57,29 @@ public class CounterDemo {
 ###漏斗
 漏桶算法，又称leaky bucket，详情见维基百科介绍：
 图片
-
+整个算法很简单：有一个恒定大小且以恒定速率漏水的水桶，请求被当作流到水桶里的水滴。如果水桶满了那么水滴溢出意味着请求被限流。
+    * 水桶大小恒定
+    * 漏水速率恒定
+####代码实现
+```PHP 
+public class LeakyDemo {
+    public $capacity;
+    public $outRate;
+    public $startTime;
+    public $curWater;
+    
+    public function __construct () {
+        $this->capacity = 100;
+        $this->outRate  = 1;
+        $this->curWate  = 0;
+    }
+    
+    public function grant() {
+        $this->curWate = max();
+    }
+}
+```
+    
 ###令牌桶
 
 ### 标准方案
