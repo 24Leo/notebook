@@ -27,7 +27,7 @@ public class CounterDemo {
 			return reqCount <= limit;
 		}
 		else {
-	                // 每隔1分钟重置时间和计数器
+	       // 每隔1分钟重置时间和计数器
 			timeStamp = now;
 			// 超时后重置
 			reqCount = 1;
