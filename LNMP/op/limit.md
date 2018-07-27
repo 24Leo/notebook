@@ -78,7 +78,8 @@ public class LeakyDemo {
     
     public function grant() {
         $now = now();
-        $this->curWater = max($this->curWater, ($now - $this->startTime) * $this->outRate);
+        // 先执行漏水，计算剩余水量
+        $this->curWater = max(0, $this->curWater - ($now - $this->startTime) * $this->outRate);
         if ($this->curWater + 1 <= $this->capacity) {
             $this->curWater++;
             return true;
