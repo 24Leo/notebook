@@ -112,7 +112,7 @@ public class tokenDemo {
     
     public function grant () {
         $now = now();
-        // 先执行添加token，然后计算token个数
+        // 先执行token入桶，然后计算token个数
         $this->curToken = min($this->curToken, ($now - $this->startTime) * $this->inRate);
         if ($this->curToken + $this->inRate > )
     }
