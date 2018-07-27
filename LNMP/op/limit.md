@@ -62,7 +62,7 @@ public class CounterDemo {
     * 漏水速率恒定
     
 ####代码实现
-```PHP 
+```php
 public class LeakyDemo {
     public $capacity;
     public $outRate;
@@ -76,7 +76,8 @@ public class LeakyDemo {
     }
     
     public function grant() {
-        $this->curWate = max();
+        $now = now()
+        $this->curWate = max(0, );
     }
 }
 ```
