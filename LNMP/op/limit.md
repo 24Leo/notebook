@@ -55,6 +55,8 @@ public class CounterDemo {
         * **计数器算法就是单窗口滑动算法**
         
 ###漏斗
+漏桶算法，又称leaky bucket，详情见维基百科介绍：
+图片
 
 ###令牌桶
 
