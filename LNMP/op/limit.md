@@ -139,6 +139,8 @@ public class tokenDemo {
     * 通过一些陷阱来发现爬虫，例如一些通过CSS对用户影藏的链接，只有爬虫才会访问；
 
 ###方向
+一般开发高并发系统常见的限流有：限制总并发数（比如数据库连接池、线程池）、限制瞬时并发数（如nginx的limit_conn模块，用来限制瞬时并发连接数）、限制时间窗口内的平均速率（如Guava的RateLimiter、nginx的limit_req模块，限制每秒的平均速率）；其他还有如限制远程接口调用速率、限制MQ的消费速率。另外还可以根据网络连接数、网络流量、CPU或内存负载等来限流。
+
 * 限流某个接口的总并发/请求数
     * 因为粒度比较细，可以为每个接口都设置相应的阀值。
 * 限流某个接口的时间窗请求数
@@ -167,7 +169,10 @@ public class tokenDemo {
 
 * [令牌桶算法google guava实现](https://github.com/google/guava/blob/master/guava/src/com/google/common/util/concurrent/RateLimiter.java)
 * [令牌桶算法golang实现](https://github.com/juju/ratelimit)				
-												
+
+###应用级限流
+####
+###分布式限流								
 
 
 [return](README.md)
