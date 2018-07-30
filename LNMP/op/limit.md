@@ -171,7 +171,8 @@ public class tokenDemo {
 * [令牌桶算法golang实现](https://github.com/juju/ratelimit)				
 
 ###应用级限流
-####
+* 限流总并发数、连接数
+    * 每个服务都会有一个临界阀值，超过后会不相应或者相应很慢，所以需要过载保护。
 ###分布式限流								
 
 
