@@ -55,7 +55,9 @@ window：文件夹目录直接输入file://${host_ip}
 mac：文件夹－前往－链接服务器；服务器地址  smb://10.99.200.196。然后输入用户名和密码即可
 ```
 ####更换端口
-/etc/samba/smb.conf里面的global字段添加配置```smb ports = ****```，然后连接的时候通过IP:PORT即可。
+* /etc/samba/smb.conf里面的global字段添加配置smb ports = ****
+* 后/sbin/service smb restart
+* 然后连接的时候通过IP:PORT即可。
 
 ###Dash激活
 [证书下载](https://kapeli.com/licenses/Dash/2015/181/A9xyvwUTgNKIjFMPNX3Uh4byRMmZgk/license.dash-license)，然后双击即可！过期会让你重新下载，这时候就是去官网下载了。
