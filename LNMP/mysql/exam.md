@@ -1,4 +1,4 @@
-[参考](https://blog.csdn.net/zuosixiaonengshou/article/details/53011452)
+[](https://www.jianshu.com/p/ef274efa5770?from=groupmessage)[参考](https://blog.csdn.net/zuosixiaonengshou/article/details/53011452)
 ### N：N
 **最简单的例子就是文章和标签～～**特性：
 * 一个文章有个多个标签
@@ -28,6 +28,6 @@
 
 
 ####参考
-
+[标签设计](https://www.jianshu.com/p/ef274efa5770?from=groupmessage)
 
 [return](README.md)
