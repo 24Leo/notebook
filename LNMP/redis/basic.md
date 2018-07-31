@@ -43,5 +43,7 @@ yum install redis  yum install epel-release
 ####方案
 ![](/assets/2939844570-567640281dcc5_articlex.png)
 
+###服务器支持的命令
+redisCommandTable[]
 
 [return](README.md)
