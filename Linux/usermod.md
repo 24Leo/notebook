@@ -49,6 +49,7 @@
         * a stands for all.
     * pre
         * x/r/w
+    * chmod -R 777 ./
     
 ###2.chown：所属对象
 **chown [-R] [user]:[group] file/dir**
