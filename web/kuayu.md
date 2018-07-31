@@ -20,8 +20,10 @@
 比如我们做一个假网站（www.fake.com），搞一个iframe嵌入银行网站（www.bank.com），然后长宽啥的都调整好（除了域名其他和银行一模一样）。这时户输入账号、密码，我们的主站跨域访问（www.bank.com）不就可以拿到用户账户密码了吗？
 ####XRP异步请求
 用户登录银行页面（www.bank.com），银行服务器在cookie中给用户设定标识。然后此时用户访问了一个恶意有毒的页面（www.poision.com），这个页面中存在Ajax请求：在该页面跨域访问www.bank.com，此时浏览器会默认把bank域名下的cookie一起附带给bank服务器。此时该异步请求不就获得了不应该获得的数据了吗？而且用户还不会感知。
+###跨域合理
+因为需要的资源、数据可能就是来自于不同的服务器，所以有时候跨域又是不可避免的。
 
 
-[常见跨域方案](https://www.cnblogs.com/ahole/p/5885122.html)
+[常见跨域方案](https://www.cnblogs.com/laixiangran/p/9064769.html)
 
 [return](README.md)
