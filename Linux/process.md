@@ -146,6 +146,7 @@ du -sh /var/log/httpd/* | sort -nr
          * df -ch dir | tail -n 1
          * c统计某个目录大小
  * du --max-depth=1 -h | sort -nr
+         * 文件夹下所有文件、子文件夹大小并排序（-h代表带有单位的）。
          
 ##ifconfig  
 ##uname 
