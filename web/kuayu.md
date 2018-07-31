@@ -4,4 +4,8 @@
     * 同源策略
     * 跨域访问
 
+
+
+[常见跨域方案](https://www.cnblogs.com/ahole/p/5885122.html)
+
 [return](README.md)
