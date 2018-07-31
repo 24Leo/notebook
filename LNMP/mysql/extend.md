@@ -244,5 +244,14 @@ mysql>GRANT SHUTDOWN ON *.* TO 'mysqladmin'@'localhost' identified by 'mysqladmi
     24、选择从10到15的记录 
         select top 5 * from (select top 15 * from table order by id asc) T_别名 order by id desc 
 ```
+###类型转换
+* 两个参数都是字符串，会按照字符串来比较，不做类型转换。
+* 两个参数都是整数，按照整数来比较，不做类型转换。
+* 十六进制的值和非数字做比较时，会被当做二进制串。
+* 有一个参数是 TIMESTAMP 或 DATETIME，并且另外一个参数是常量，常量会被转换为 timestamp
+* 有一个参数是 decimal 类型，如果另外一个参数是 decimal 或者整数，会将整数转换为 decimal 后进行比较，如果另外一个参数是浮点数，则会把 decimal 转换为浮点数进行比较
+* 所有其他情况下，两个参数都会被转换为浮点数再进行比较
+
+
 
 [返回目录](README.md)
