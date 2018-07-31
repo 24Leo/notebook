@@ -145,7 +145,7 @@ du -sh /var/log/httpd/* | sort -nr
  * 查看某一个子目录大小 
          * df -ch dir | tail -n 1
          * c统计某个目录大小
- * 
+ * du --max-depth=1 -h | sort -nr
          
 ##ifconfig  
 ##uname 
