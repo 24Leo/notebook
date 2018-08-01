@@ -9,7 +9,14 @@
 ###从服务器状态机
 * 定时调用replicationCron方法
     * 频率可以设置，默认是1s一次
+    
+    
+    
+    
+    
 ###主服务器状态机
 
 
 [return](README.md)
+
+
