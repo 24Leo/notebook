@@ -2,7 +2,7 @@
 * 主从同步原理：**从服务器命令流追赶主服务器的命令流**。
     * 主服务器默认维护一个1M大小的repl_backlog，所有的dirty命令都会放到这里面。然后通信时发送给slaves。
     * slave 会记住master 的replication ID（唯一标识从服务器自身） 和复制偏移量
-        * 这两个都是主服务器返回的。如果没有怎么办，第一次同步的时候通过发送“psync -1”来获取全量同步以及offset。
+        * 这两个都是主服务器返回的。如果没有怎么办，第一次同步的时候通过发送**“psync -1”**来获取全量同步以及offset。
     * 调用函数sendSynchronousCommand发送psync命令，如果返回：
         * strncmp(reply,"+FULLRESYNC",11) ：代表全量同步
         * strncmp(reply,"+CONTINUE",9) ：代表部分同步
