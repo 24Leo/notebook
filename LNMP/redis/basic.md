@@ -47,6 +47,6 @@ yum install redis  yum install epel-release
 redisCommandTable[]
 
 * 过期TTL
-    * lookupKeyWrite：每次打算去读、写操作的时候都会调用该方法检查是否过期
+    * expireIfNeeded：每次打算去读、写操作的时候都会调用该方法检查是否过期
 
 [return](README.md)
