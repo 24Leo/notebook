@@ -46,4 +46,7 @@ yum install redis  yum install epel-release
 ###服务器支持的命令
 redisCommandTable[]
 
+* 过期TTL
+    * lookupKeyWrite：每次打算去读、写操作的时候都会检查是否过期
+
 [return](README.md)
