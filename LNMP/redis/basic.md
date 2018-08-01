@@ -44,7 +44,7 @@ yum install redis  yum install epel-release
 ![](/assets/2939844570-567640281dcc5_articlex.png)
 
 ###服务器支持的命令
-src/server.c文件里面：redisCommandTable[]，命令汇总以及对应的参数个数、处理函数等。
+src/server.c文件里面：redisCommandTable[]，支持是我命令汇总以及对应的参数个数、处理函数等。
 
 * 过期TTL
     * expireIfNeeded：每次打算去读、写操作的时候都会调用该方法检查是否过期
