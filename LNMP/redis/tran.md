@@ -64,6 +64,7 @@
         * 也就是说一个db会有多个链：一个key对应一个链，每个链的原始就是客户端。
         * 调用通知函数touchWatchedKey时，参数也就是db、key
             * 首先看下db有没有监视的keys列表，如果有拿出监视key的客户端列表，将客户端状态设置为CLIENT_DIRTY_CAS说明已改～。
+            * c->flags |= CLIENT_DIRTY_CAS;
 
 
 
