@@ -1,6 +1,6 @@
 * 主死从上，主恢复过来后需要和从同步。
 * 主从同步原理：**从服务器命令流追赶主服务器的命令流**。
-    * 主服务器维护一个默认1M大小的repl_backlog，所有的dirty命令都会放到这里面，然后通信时发送给s所有laves。
+    * 主服务器维护一个默认1M大小的repl_backlog，所有的dirty命令都会放到这里面，然后通信时发送给所有laves。
     * slave 会记住master 的replication ID（唯一标识从服务器自身） 和复制偏移量
         * 这两个都是主服务器返回的。如果没有怎么办，第一次同步的时候通过发送**“psync -1”**来获取全量同步以及offset。
     * 调用函数sendSynchronousCommand发送psync命令（第一次参数-1，以后带有server.master对应offset），如果返回：
