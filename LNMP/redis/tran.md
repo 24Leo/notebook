@@ -60,7 +60,7 @@
         * 对应的val引用计算加1；
         * **通知监视这个key的客户端**
         * 过期时间默认永久
-    * 需要注意的是我们使用watch时，监视的是db+key，所以通知的时候也是通知db_key变化。
+    * 需要注意的是我们使用watch时，**监视的是db+key**，所以通知的时候也是通知db_key变化。
         * 调用通知函数touchWatchedKey时，参数也就是db、key
             * 首先看下db有没有监视的keys列表，如果有拿出监视key的客户端列表，将客户端状态设置为CLIENT_DIRTY_CAS。
 
