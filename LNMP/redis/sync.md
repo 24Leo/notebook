@@ -27,5 +27,10 @@
 * 预同步阶段，发送一个新行（\n，啥都没有）给所有客户端：标记即将进行同步，等待主服务器创建rdb文件。
     * 刷新从服务器最后通信交互时间
 
+
+#####参考
+* [源代码解析](http://blog.51cto.com/sofar/1413024)
+* [挤压队列](https://blog.csdn.net/gqtcgq/article/details/51287116)
+
 [return](README.md)
 ****
