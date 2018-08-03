@@ -93,7 +93,7 @@ SQL语句分为三种：DML（Data Manipulation Language）与DDL(Data Definitio
             char和varchar：
                 1.char(n) 若存入字符数小于n，则以空格补于其后，查询之时再将空格去掉。但是若是中文，则n＊3。
                     所以char类型存储的字符串末尾不能有空格，varchar不限于此。 
-                2.char(n) 固定长度，char(4)不管是存入几个字符，都将占用4个字节，varchar是存入的实际字符数+1/2个
+                2.char(n) 固定长度，char(4)不管是存入几个字符，都将占用4个字节，varchar是存入的实际字符数+1、2个
                     字节（n<=255）或2个字节(n>255)，所以varchar(4),存入3个字符将占用4个字节，记录长度。 不经常变的varchar，因为varchar会计算长度。
                 3.char类型的字符串检索速度要比varchar类型的快。
                 4. 如果字符串的最大长度比平均长度大很多，且列的更新很少时则适合用VARCHAR
