@@ -33,7 +33,7 @@
 运行结果：
 //相等，相等，不相等,相等。
 ```
-	* 原因是在PHP中变量是以C语言的结构体来存储的，空字符串和NULL,false都是以值为0存储的，其中这个结构体有个zend_uchar type;这样的成员变量，他是用来保存变量的类型的，而空字符串的类型是string，NULL的类型是NULL,false是boolean。
+	* 原因是在PHP中变量是以C语言的结构体来存储的，空字符串和NULL,false都是以值为0存储的，其中这个结构体有个**zend_uchar type**;这样的成员变量，他是用来保存变量的类型的，而空字符串的类型是string，NULL的类型是NULL,false是boolean。
 	* 这一点可以用echo gettype('');和echo gettype(NULL);来打印看看！而===运算符是不单比较值，还有比较类型的，所以第三个为false！
 	* 所以空字符串('')，false,NULL和0是值相等而类型不一样！
 
