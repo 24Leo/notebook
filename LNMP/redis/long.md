@@ -91,8 +91,8 @@ def BGSAVE():
     * 此时的命令写入server.aof_buf中，然后根据配置的更新时机写入磁盘。
 * 综上：更新缓存可以存储在 server.aof_buf 中，可以存储在server.server.aof_rewrite_buf_blocks 链表中。
     * 它们的关系是：每一次数据变更记录都会写入 server.aof_buf 中，同时如果后台子进程在持久化，变更记录还会被写入 server.aof_rewrite_buf_blocks 中。server.aof_buf 会在特定时期写入指定文件，server.aof_rewrite_buf_blocks 会在后台持久化结束后追加到文件。
-    * Redis 源码中是这么实现的：propagrate() -> feedAppendOnlyFile() -> aofRewriteBufferAppend()
-        * 如果是变更命令，调用redis的propagrate命令，然后feedAppendOnlyFile添加到server.aof_buf中，下面会有一个判断，如果当前有AOF子进程备份，则调用aofRewriteBufferAppend将aof_buf所有数据写入aof_rewrite_buf_blocks链表
+    * Redis 源码中是这么实现的：propagate() -> feedAppendOnlyFile() -> aofRewriteBufferAppend()
+        * 如果是变更命令，调用redis的propagate命令，然后feedAppendOnlyFile添加到server.aof_buf中，下面会有一个判断，如果当前有AOF子进程备份，则调用aofRewriteBufferAppend将aof_buf所有数据写入aof_rewrite_buf_blocks链表
         * 对了propagrate会向 AOF 和从机发布数据更新。
 
 ![](/assets/wKioL1NTm3KRVaqbAAD825sYnIs316.jpg)
