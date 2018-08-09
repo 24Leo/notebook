@@ -98,6 +98,7 @@ def BGSAVE():
             * 从服务器：replicationFeedSlaves
 ![](/assets/wKioL1NTm3KRVaqbAAD825sYnIs316.jpg)
 
+
 ####优缺点
 #####优点
 * 持久性保证（不完全，只是相对RDB来说）
