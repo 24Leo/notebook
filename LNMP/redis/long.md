@@ -96,9 +96,6 @@ def BGSAVE():
         * 对了propagrate会向 AOF 和从机发布数据更新。
             * AOF：feedAppendOnlyFile
             * 从服务器：replicationFeedSlaves
-
-
-
 ![](/assets/wKioL1NTm3KRVaqbAAD825sYnIs316.jpg)
 
 ####优缺点
