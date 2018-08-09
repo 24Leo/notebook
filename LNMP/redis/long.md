@@ -61,6 +61,7 @@ def BGSAVE():
     * 虽然AOF也需要fork子进程，但是数据持久性不会有影响。
 
 ###AOF
+[AOF](http://blog.51cto.com/sofar/1399027)
 * 是将数据库内容以协议文本的形式将所有更改命令**追加**到文件中（类似于redo log）。
 * 配置：
     * no     
