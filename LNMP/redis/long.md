@@ -87,7 +87,8 @@ def BGSAVE():
     * 此时子进程负责生成中间文件，主进程处理请求同时将变更命令放到 server.aof_rewrite_buf_blocks链表中。
     * 子进程备份结束，更新文件名，然后通知父进程
     * 父进程调用backgroundRewriteDoneHandler回调函数将链表中命令追加到备份文件。
-* 备份过程
+* 备份过程fsync
+    * 此时的命令写入server.aof_buf中，然后根据配置的更新时机写入磁盘。
 
 
 ####优缺点
