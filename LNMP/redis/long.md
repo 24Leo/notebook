@@ -94,6 +94,7 @@ def BGSAVE():
     * Redis 源码中是这么实现的：propagrate() -> feedAppendOnlyFile() -> aofRewriteBufferAppend()
         * 如果是变更命令，调用redis的propagrate命令，然后feedAppendOnlyFile添加到server.aof_buf中，下面会有一个判断，如果当前有AOF子进程备份，则调用aofRewriteBufferAppend将aof_buf所有数据写入aof_rewrite_buf_blocks链表
 
+![](/assets/wKioL1NTm3KRVaqbAAD825sYnIs316.jpg)
 
 ####优缺点
 #####优点
