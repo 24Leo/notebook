@@ -34,7 +34,7 @@
 * 发送rdb文件、命令流时，不管从服务器是否处理直接返回：只负责发送。
 * 即使没有数据，主服务器也会发送数据，因为从服务器维护上次通信时间，防止从认为发现timeout。
 * 同步时发生连接异常：从服务器会检测到，主动关闭。主服务器仅仅关注OS的sockent error。（主服务器依然认为已经完成同步，但是从服务器没有收到最新的offset，所以不影响）。
-* replication offset（64bit全局计数器） 是随着redis2.8 的psync命令出现。
+* replication offset（64bit全局计数器） 是随着redis2.8 的psync命令出现。所有slave是一套。
 
 #####参考
 * [源代码解析](http://blog.51cto.com/sofar/1413024)
