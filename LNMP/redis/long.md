@@ -89,6 +89,7 @@ def BGSAVE():
     * 父进程调用backgroundRewriteDoneHandler回调函数将链表中命令追加到备份文件。
 * 备份过程fsync
     * 此时的命令写入server.aof_buf中，然后根据配置的更新时机写入磁盘。
+* 更新缓存可以存储在 server.aof_buf 中，可以存储在 server.server.aof_rewrite_buf_blocks 链表中。它们的关系是：每一次数据变更记录都会写入 server.aof_buf 中，同时如果后台子进程在持久化，变更记录还会被写入 server.server.aof_rewrite_buf_blocks 中。server.aof_buf 会在特定时期写入指定文件，server.server.aof_rewrite_buf_blocks 会在后台持久化结束后追加到文件。
 
 ####优缺点
 #####优点
