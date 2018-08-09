@@ -19,7 +19,10 @@
 每1s同步一下
 * 定时调用replicationCron方法
     * 频率可以设置，默认是1s一次
+    * 发送当前的offset
     
+    
+* 从服务器会定时发送psync命令来告诉主服务器我同步到哪里了（```REPLCONF ACK <replication-offset>```），
     
     
     
