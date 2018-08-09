@@ -99,6 +99,11 @@ def BGSAVE():
 ![](/assets/wKioL1NTm3KRVaqbAAD825sYnIs316.jpg)
 
 
+* 这里有一个疑问，两条主线都会涉及文件的写：后台执行会写一个 AOF 文件，边服务边备份也会写一个，以哪个为准？
+    * 后台持久化的数据首先会被写入「temp-rewriteaof-bg-%d.aof」，其中「%d」是 AOF 子进程 id；待 AOF 子进程结束后，「temp-rewriteaof-bg-%d.aof」会被以追加的方式打开，继而写入 server.aof_rewrite_buf_blocks 中的更新缓存，最后「temp-rewriteaof-bg-%d.aof」文件被命名为 server.aof_filename，所以之前的名为 server.aof_filename 的文件会被删除，也就是说边服务边备份写入的文件会被删除。边服务边备份的数据会被一直写入到 server.aof_filename 文件中。
+    * 因此，确实会产生两个文件，但是最后都会变成 server.aof_filename 文件。
+    * 这里还有一个疑问，既然有了后台持久化，为什么还要边服务边备份？边服务边备份时间长了会产生数据冗余甚至备份过旧的数据，而后台持久化可以消除这些东西。看，这里是 Redis 的双保险。
+
 ####优缺点
 #####优点
 * 持久性保证（不完全，只是相对RDB来说）
