@@ -82,6 +82,8 @@ set fileencodings=utf-8,gbk,utf-16,big5
 ```
 
 ### 4、插件安装
+vim-easy-align 自动对其
+
 
 1. 
 **ctags**; 建立源码树的标签索引
