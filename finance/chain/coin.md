@@ -6,12 +6,8 @@
 * ONT有大庄！！
 
 
-长期：AE、zil、BLZ、BTM、ada、iost、ruff
+长期：ONT、AE、zil、BLZ、BTM、ada、iost、ruff
 埋伏：yee、safe
-
-随时调整：
-5月占比：AE（4）、ADA（2）、ZIL（1）、YEE（1）、safe（1）、RUFF（0.5）、BLZ（0.5）
-    * 在10月份前，ADA要高一点，虚拟机比较重要---程序员开发落地
 
 <hr>
 * ont国家工商采用，解决信任问题---有可能
