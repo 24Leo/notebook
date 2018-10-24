@@ -6,4 +6,5 @@ location：
 如果没有last、break，会遍历继续执行；
 * break：url地址栏不变，匹配结束，不在执行后续rewrite
 * last：url地址栏不变，马上发起新请求，再次进入server层，重定向超过10次报500错误。
-* redirect：url地址栏变，302临时重定向，
+* redirect：url地址栏变，302临时重定向，爬虫不变；
+* permanent：url地址栏变，301永久重定向，爬虫变；
