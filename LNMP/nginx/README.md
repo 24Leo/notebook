@@ -2,7 +2,6 @@
 
 多进程、单线程
 
-* [IO端口复用](./../../Linux/io_port.md)
 * [问题总结](problem.md)
 
 [返回目录](../README.md)
