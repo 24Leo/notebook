@@ -9,5 +9,7 @@ location：
 * redirect：url地址栏变，302临时重定向，爬虫不变；
 * permanent：url地址栏变，301永久重定向，爬虫变；
 
+参数
+    * 如果rewrite时不想要参数：后面加上“？”
 
 [return](README.md)
