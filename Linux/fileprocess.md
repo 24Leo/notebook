@@ -12,6 +12,15 @@ grep [-acinorvw] [--color=auto] '搜寻字符串' filename/*.*
 -w ：精确匹配单词
 --color=auto ：可以将找到的关键词部分加上颜色的显示！
 ```
+## uniq [-ic] 
+* -i:忽略大小写
+* -c:进行计数
+
+## wc [-lwm] 默认列出行 字数 字符数
+* -l:只列出行
+* -w:只列出多少字
+* -m:多少字符
+
 ##find：在目录结构中搜索文件，并执行指定的操作
 **格式：find pathname [-para] [options]**
 * pathname：路径。用.来表示当前目录，用/来表示系统根目录。
