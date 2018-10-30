@@ -1,36 +1,13 @@
-##$
-1. $$
- * Shell本身的PID（ProcessID）
-1. $! 
- * Shell最后运行的后台Process的PID
-1. $?
- * 最后运行的命令、函数的结束代码（返回值）
-1. $-
- * 使用Set命令设定的Flag一览
-1. $*
- * 所有参数列表。如"$*"用「"」括起来的情况、以"$1 $2 … $n"的形式输出所有参数。
-1. $@
- * 所有参数列表。如"$@"用「"」括起来的情况、以"$1" "$2" … "$n" 的形式输出所有参数。
-1. $#
- * 添加到Shell的参数个数
-1. $0
- * Shell本身的文件名
-1. $1～$n
- * 添加到Shell的各参数值。$1是第1参数、$2是第2参数…
-
-
 ### shell 参数
-•$n        $1 the first parameter,$2 the second... 
-•$#        The number of command-line parameters. 
-•$0        The name of current program. 
-•$?        Last command or function's return value. 
-•$$        The program's PID. 
-•$!        Last program's PID. 
-•$@        Save all the parameters.
+    •$n        $1 the first parameter,$2 the second... 
+    •$#        The number of command-line parameters. 
+    •$0        The name of current program. 
+    •$?        Last command or function's return value. 
+    •$$        The program's PID. 
+    •$!        Last program's PID. 
+    •$@        Save all the parameters.
 
-almost any shell book will talk about them,from which you can get their detail usages.
-
-2    Linux SHELL if 命令参数说明
+##SHELL if 命令参数说明
 
 •–b 当file存在并且是块文件时返回真 
 •-c 当file存在并且是字符文件时返回真 
