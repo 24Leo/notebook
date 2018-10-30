@@ -21,7 +21,7 @@ grep [-acinorvw] [--color=auto] '搜寻字符串' filename/*.*
 * -w:只列出多少字
 * -m:多少字符
 
-## sort [-fbMnrtuk] [file or stdin]  默认以文字类型排序
+## sort 默认以文字类型排序
 * -f:忽略大小写
 * -b:忽略最前面的空格
 * -M:以月份排序
