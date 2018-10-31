@@ -4,7 +4,7 @@
 | ---- | ----- |
 | 添加用户 | useradd、adduser | sudo useradd Uname |
 | 添加用户到组 | useradd、adduser | sudo useradd -m -g 组名 用户名（加上m自动创建目录，加上g自动添加到组） |
-| 用户密码 | passwd | passwd Uname |
+| 用户密码 | passwd | sudo passwd Uname |
 | 更新密码 | 同上 | 同上 |
 | 用户信息 | id、finger | id Uname 、finger |
 | 用户文件修改 | usermod | 组、名、uid、家目录等，具体使用man |
