@@ -3,7 +3,7 @@
 | 作用 | 命令 | 解释 |
 | ---- | ----- |
 | 添加用户 | useradd、adduser | sudo useradd Uname |
-| 添加用户到组 | useradd、adduser | sudo useradd -m -g 组名 用户名（加上m自动创建目录，加上g自动添加到组） |
+| 添加用户同时到组 | useradd、adduser | sudo useradd -m -g 组名 用户名（加上m自动创建目录，加上g自动添加到组） |
 | 用户密码 | passwd | sudo passwd Uname（当前用户不需要Uname） |
 | 更新密码 | 同上 | 同上 |
 | 用户信息 | id、finger | id Uname 、finger |
