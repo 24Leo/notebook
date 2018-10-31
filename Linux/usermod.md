@@ -26,9 +26,8 @@
 | 查看组 | cat /etc/group ||
 
 #### 说明
-添加的组会保存到/etc/group文件中，可以通过cat -n /etc/group | grep 组名 单独查看信息。
-
-创建的用户保存在/etc/passwd文件中，可以通过cat -n /etc/passwd | grep 用户名 单独查看信息。
+* 添加的组会保存到/etc/group文件中，可以通过cat -n /etc/group | grep 组名 单独查看信息。
+* 创建的用户保存在/etc/passwd文件中，可以通过cat -n /etc/passwd | grep 用户名 单独查看信息。
 
 ##更新权限
 ####1. chmod：操作权限
