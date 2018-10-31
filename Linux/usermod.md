@@ -2,7 +2,7 @@
 | 作用 | 命令 | 解释 |
 | ---- | ----- |
 | 添加用户 | useradd、adduser | sudo useradd Uname |
-| 用户密码 | passwd | sudo passwd Uname |
+| 用户密码 | passwd | passwd Uname |
 | 更新密码 | 同上 | 同上 |
 | 用户信息 | id、finger | id Uname 、finger |
 | 用户文件修改 | usermod | 组、名、uid、家目录等，具体使用man |
@@ -13,7 +13,7 @@
 | 作用 | 命令 | 解释 |
 | ---- | ----- |
 | 添加组 | groupadd | sudo groupadd Gname |
-| 删除组 | groupdel | sudo groupdel Gname |
+| 删除组 | groupdel | groupdel Gname |
 | 添加用户到组 | useradd －G | useradd -G group user |
 | 用户所属组 | groups |  |
 | 添加用户到组 | usermod -aG | usermod -aG group user没有a以前组删除 |
