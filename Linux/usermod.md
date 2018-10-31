@@ -1,4 +1,5 @@
 部分管理需要root身份：
+[参考](https://blog.csdn.net/zyqblog/article/details/79226826)
 ###用户
 | 作用 | 命令 | 解释 |
 | ---- | ----- |
