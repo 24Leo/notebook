@@ -8,7 +8,7 @@
 | 更新密码 | 同上 | 同上 |
 | 用户信息 | id、finger | id Uname 、finger |
 | 用户文件修改 | usermod | 组、名、uid、家目录等，具体使用man |
-| 删除用户 | userdel | userdel Uname |
+| 删除用户 | userdel | userdel -r Uname（连同目录一并删除） |
 | 用户切换 | su | su Uname |
 | finger用户信息修改 | chfn | 名字、电话等(当前用户) |
 ###用户组
