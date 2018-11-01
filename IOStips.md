@@ -1,4 +1,4 @@
-##快速搜索
+bin/odp_install##快速搜索
 command+space
 ##多点触控
 1. 单指手势 
