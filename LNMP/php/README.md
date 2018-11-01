@@ -8,5 +8,6 @@
 * [SSO-CAS](cas.md)
 * [php-core](core/README.md)
 * [稳定性建设](wending/README.md)
+* [笔记](note.md)
 
 [返回目录](../README.md)
