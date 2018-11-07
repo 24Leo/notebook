@@ -9,6 +9,8 @@ ONT、BLZ、AE、BTM、ZIL、EOS
 IOST、LRC
 
 
+EOS、ADA、AE
+
 长期：ONT、AE、zil、BLZ、BTM、ada、iost、ruff
 埋伏：yee、safe
 
