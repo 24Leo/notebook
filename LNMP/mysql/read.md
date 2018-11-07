@@ -65,7 +65,9 @@ begin
     read table_id  
        
 begin 
+                begin
                 select 
+    begin
     read table_all
                 insert table_one
                 commit
