@@ -10,12 +10,12 @@
 
 ### 表级锁分类:
 * IS—意向S锁、IX—意向X、AI自增锁、S锁、X锁
-![](/assets/表锁.png)
 
 #### 表级锁触发条件:
 * IX,IS：需要对记录加s或x行锁时先对表加此锁
 * AI： 插入具有自增字段的记录时加此锁，需要注意的是，自增锁的解锁是在插入语句结束时发生的，而不是在事务结束
 * X,S：显式的 lock table xxx (write | read)
+![](/assets/表锁.png)
 
 ### 行锁
 * 触发条件：写操作 或者 select .. for update | lock in share mode
