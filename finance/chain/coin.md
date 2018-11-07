@@ -2,8 +2,11 @@
 * 大饼开始跌，山寨继续涨2～7天，然后和大饼走势相同。。
     * BTC即使跌了，也会回调，大致回调到85～90%
 * 个别币会在大饼跌了之后继续涨。
-
 * ONT有大庄！！
+
+BTC、ETH
+ONT、BLZ、AE、BTM、ZIL
+IOST、LRC
 
 
 长期：ONT、AE、zil、BLZ、BTM、ada、iost、ruff
