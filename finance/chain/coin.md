@@ -9,7 +9,7 @@ ONT、BLZ、AE、ZIL、EOS
 IOST、LRC、BTM
 AE  EOS ZIL现在白菜价
 
-EOS、ADA、AE
+IPFS
 
 长期：ONT、AE、zil、BLZ、BTM、ada、iost、ruff
 埋伏：yee、safe
