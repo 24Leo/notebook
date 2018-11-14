@@ -8,6 +8,7 @@ mysql --help | grep my.cnf。
 * 然后配置远程访问、本地访问，需要重启
     * 远程：
         * 创建用户：create user 'work'@'localhost' identified by 'work1234';
+            * 别忘记刷新权限：FLUSH PRIVILEGES;要不然会报警：找不到用户。
         * 授权：
         * 允许访问：update user set host='%' where host='localhost' and user='work';
     * 本地：
