@@ -13,6 +13,7 @@ mysql --help | grep my.cnf。
         * 允许访问：update user set host='%' where host='localhost' and user='work';
             * 再次刷新：FLUSH PRIVILEGES; 
     * 本地：
+        * 同理：只要对当前用户授权，然后刷新权限即可。
     * 重启：
 
 ```C++
