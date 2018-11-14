@@ -6,7 +6,9 @@ mysql --help | grep my.cnf。
 * mysql刚安装后，通过mysql可以直接登录（select user();可以获得当前帐号）。也可以通过mysql -uroot指定root帐号登录，登录后需改root密码
     * SET PASSWORD FOR 'root'@'localhost' = PASSWORD('root');
 * 然后配置远程访问、本地访问，需要重启
-    * 原创：
+    * 远程：
+        * 创建用户：create user 'work'@'localhost' identified by 'work1234';
+        * 授权：
     * 本地：
     * 重启：
 
