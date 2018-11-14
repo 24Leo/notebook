@@ -3,9 +3,14 @@
 mysql --help | grep my.cnf。
 查看所有配置文件路径
 
+* mysql刚安装后，通过mysql可以直接登录（select user();可以获得当前帐号）。也可以通过mysql -uroot指定root帐号登录，登录后需改root密码
+    * SET PASSWORD FOR 'root'@'localhost' = PASSWORD('root');
+* 然后配置远程访问、本地访问，需要重启
+    * 原创：
+    * 本地：
+    * 重启：
 
 ```C++
-mysql刚安装后，通过mysql可以直接登录（select user();可以获得当前帐号）。也可以通过mysql -uroot指定root帐号登录，登录后需改root密码
     修改密码：
         1)终端：mysqladmin -u[user-name] -p[old-password] password [new-password]
         2)mysql环境：set password for [username]@[host]=password('new password')  修该某一用户
