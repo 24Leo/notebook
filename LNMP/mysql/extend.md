@@ -15,7 +15,7 @@ mysql --help | grep my.cnf。
     * 本地：
         * 同理：只要对当前用户授权，然后刷新权限即可。
     * 重启：
-        * 关闭、启动
+        * 关闭（mysqladmin shutdown -uroot -p123456）、启动
 
 ```C++
     修改密码：
