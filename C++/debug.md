@@ -61,12 +61,12 @@ Please submit a full bug report
 
 内存不足， 在linux下增加临时swap空间
     * dd if=/dev/zero of=/home/swap bs=1024 count=500000
-　　    * 注释：of=/home/swap,放置swap的空间; count的大小就是增加的swap空间的大小，1024就是块大小，这里是1K，所以总共空间就是bs*count=500M
+　　    * of=/home/swap,放置swap的空间; count的大小就是增加的swap空间的大小，1024就是块大小，这里是1K，所以总共空间就是bs*count=500M
 step 2:
 　　* mkswap /home/swap
-　　    * 注释：把刚才空间格式化成swap各式
+　　    * 把刚才空间格式化成swap各式
     * swapon /home/swap
-　　    * 注释：使刚才创建的swap空间
+　　    * 使刚才创建的swap空间
     * 如果想关闭刚开辟的swap空间，只需命令：#swapoff
 
 [返回目录](README.md)
