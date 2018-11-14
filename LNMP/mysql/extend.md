@@ -23,6 +23,7 @@ mysql --help | grep my.cnf。
         即：
             新建用户：create user [username]@[host] identified by [password]
             授权：grant [privileges] on [DBname].[Tname] to [username]@[host]
+            * grant all privileges on YQ.* to wise;
         注：
             username   用户名
             host       指定用户从那个主机登陆(本机：localhost)
