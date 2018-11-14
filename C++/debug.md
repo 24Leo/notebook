@@ -68,5 +68,6 @@ step 2:
     * ```swapon /home/swap```
         * 使刚才创建的swap空间
     * 如果想关闭刚开辟的swap空间，只需命令：#swapoff
+    * 如果命令不存在：/sbin/mkswap，加上/sbin/即可
 
 [返回目录](README.md)
