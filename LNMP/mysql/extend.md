@@ -9,7 +9,7 @@ mysql --help | grep my.cnf。
     * 远程：
         * 创建用户：create user 'work'@'localhost' identified by 'work1234';
             * 刷新权限：FLUSH PRIVILEGES;要不然会报警：找不到用户。
-        * 授权：grant all PRIVILEGES on Fso_Igc.* to 'work';
+        * 授权：grant all PRIVILEGES on Tdname.* to 'work';
         * 允许访问：update user set host='%' where host='localhost' and user='work';
             * 再次刷新：FLUSH PRIVILEGES; 
     * 本地：
