@@ -9,6 +9,7 @@ mysql --help | grep my.cnf。
     * 远程：
         * 创建用户：create user 'work'@'localhost' identified by 'work1234';
         * 授权：
+        * 允许访问：
     * 本地：
     * 重启：
 
