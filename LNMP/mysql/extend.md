@@ -5,6 +5,7 @@ mysql --help | grep my.cnf。
 
 
 ```C++
+mysql刚安装后，通过mysql可以直接登录（select user();可以获得当前帐号）。也可以通过mysql -uroot指定root帐号登录，登录后需改root密码
     修改密码：
         1)终端：mysqladmin -u[user-name] -p[old-password] password [new-password]
         2)mysql环境：set password for [username]@[host]=password('new password')  修该某一用户
