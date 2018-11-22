@@ -18,11 +18,6 @@ cat /proc/ioports：查看端口分配信息
 
 重要的事情再说一遍： I/O multiplexing 这里面的 multiplexing 指的其实是在单个线程通过记录跟踪每一个Sock(I/O流)的状态(对应空管塔里面的Fight progress strip槽)来同时管理多个I/O流. 发明它的原因，是尽量多的提高服务器的吞吐能力。
 
-作者：罗志宇
-链接：https://www.zhihu.com/question/32163005/answer/55772739
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
 ##[端口复用](http://www.zhihu.com/question/32163005/answer/55772739)
 1. 
 水平触发（level-triggered，默认）——只要满足条件，就触发一个事件(只要有数据没有被读取走，内核就不断通知你)，本次不处理下次还提醒；=====本次可以不管
