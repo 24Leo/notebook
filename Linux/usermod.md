@@ -10,7 +10,7 @@
 | 用户信息 | id、finger、whoami | id Uname 、finger |
 | 用户文件修改 | usermod | 组、名、uid、家目录等，具体使用man |
 | 删除用户 | userdel | userdel -r Uname（连同目录一并删除） |
-| 用户切换 | su | su Uname |
+| 用户切换 | su | su Uname |44d
 | finger用户信息修改 | chfn | 名字、电话等(当前用户) |
 提示： 如果添加用户时，没有加-m创建家目录，最简单的方法是删除该用户，重新创建。
 ###用户组
