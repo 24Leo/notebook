@@ -1,6 +1,6 @@
 ##PHP 生命周期
 [链接](https://blog.csdn.net/ty_hf/article/details/52877759)
-
+(https://www.fanhaobai.com/2017/10/internal-php-fpm.html)
 
 
 * 执行步骤
