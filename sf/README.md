@@ -5,7 +5,8 @@
 * beyond compare无限适用：
 rm "/Users/$(whoami)/Library/Application Support/Beyond Compare/registry.dat"
 * phpstorm注册
-server: http://xidea.online
+    * server: http://xidea.online
+    * [link](https://blog.csdn.net/robin_sky/article/details/80608280)
 
 * xcode error : 
     * sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
