@@ -15,7 +15,7 @@ MySQL/InnoDB源码中，有很多注释，一些注释相当详细，对理解�
 函数/某一个功能模块都相当有用
 
 
-SELECT id, article_id, cat_id, read_num, title, summary, cover, source, author, keyword, user_name, channel, publish_time, content_type, core_content, subtitle FROM igc_sfp_article_delivery WHERE (channel = '金融商城') AND (status = 2) AND (publish_time >= '2018-10-21 13:37:46') AND (is_offline = 0) AND (is_delete = 0) AND (cat_id in (110200 AND SLEEP(5))) AND (content_type in (1,2)) order by read_num desc limit 20
+SELECT id, article_id, subtitle FROM igc_sfp_article_delivery WHERE (channel = 'fdsaf') AND (status = 2) AND (publish_time >= '2018-10-21 13:37:46') AND (is_offline = 0) AND (is_delete = 0) AND (cat_id in (110200 AND SLEEP(5))) AND (content_type in (1,2)) order by read_num desc limit 20
 
 1. [基础知识](base.md)
 1. [扩展使用](extend.md)
