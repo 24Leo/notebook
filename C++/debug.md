@@ -64,6 +64,7 @@ Please submit a full bug report
         * of=/home/swap,放置swap的空间; count的大小就是增加的swap空间的大小，1024就是块大小，这里是1K，所以总共空间就是bs*count=500M
     * ```mkswap /home/swap```
         * 把刚才空间格式化成swap各式
+        * 不支持的话：/sbin/mkswap 
     * ```swapon /home/swap```
         * 使刚才创建的swap空间
     * 如果想关闭刚开辟的swap空间，只需命令：#swapoff
