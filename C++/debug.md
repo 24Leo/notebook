@@ -62,7 +62,7 @@ Please submit a full bug report
 内存不足， 在linux下增加临时swap空间
     * ```dd if=/dev/zero of=/home/swap bs=1024 count=500000```
         * of=/home/swap,放置swap的空间; count的大小就是增加的swap空间的大小，1024就是块大小，这里是1K，所以总共空间就是bs*count=500M
-　　* ```mkswap /home/swap```
+    * ```mkswap /home/swap```
         * 把刚才空间格式化成swap各式
     * ```swapon /home/swap```
         * 使刚才创建的swap空间
