@@ -96,7 +96,17 @@ brew install phpmyadmin
 ###源码安装
 在https://dev.mysql.com/downloads/mysql/下载指定GA版本，选择source code下载即可
 进入目录后：sudo cmake .
-
+### 编译失败
+* g++: internal compiler error: Killed (program cc1plus)Please submit a full bug report ====》内存不足， 在linux下增加临时swap空间
+        * dd if=/dev/zero of=/home/swap bs=1024 count=500000
+        of=/home/swap,放置swap的空间; count的大小就是增加的swap空间的大小，1024就是块大小，这里是1K，所以总共空间就是bs*count=500M
+mkswap /home/swap
+把刚才空间格式化成swap各式
+不支持的话：/sbin/mkswap
+swapon /home/swap
+使刚才创建的swap空间
+如果想关闭刚开辟的swap空间，只需命令：#swapoff
+如果命令不存在：/sbin/mkswap，加上/sbin/即可
 
 ##安装nginx
 brew install nginx。
