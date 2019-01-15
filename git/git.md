@@ -162,6 +162,8 @@ git checkout 把版本库中的文件覆盖工作区文件
 首先生成认证：
         ssh-keygen -t rsa -C "youremail"  
         然后把生成的 id_rsa.pub内容放到github内
+        * -t：指定生成密钥类型（rsa、dsa、ecdsa等）
+        * -f：指定存放密钥的文件（公钥文件默认和私钥同目录下，不同的是，存放公钥的文件名需要加上后缀.pub）
 绑定：
         git init：保证当前路径下是一个git respository
         git remote add [remote-name] git@github:[yourname]/[respo_name].git
