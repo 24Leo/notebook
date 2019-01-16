@@ -9,6 +9,6 @@
 * [oauth2](https://www.cnblogs.com/charlypage/p/9291377.html)
 * [curl](curl.md)
 * [跨域](kuayu.md)
-* [CSRF](https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html)
+
 
 [返回目录](../SUMMARY.md)
