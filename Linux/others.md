@@ -1,4 +1,8 @@
 crontab
+    * crontab –e : 修改 crontab 文件，如果文件不存在会自动创建。 
+    * crontab –l : 显示 crontab 文件。 
+    * crontab -r : 删除 crontab 文件。
+    * crontab -ir : 删除 crontab 文件前提醒用户。
 minute   hour   day   month   week   command
 每两个小时 
 ``` 0 */2 * * * echo "Have a break now." >> /tmp/test.txt```  
