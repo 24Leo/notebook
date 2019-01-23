@@ -4,6 +4,7 @@ crontab
     * crontab -r : 删除 crontab 文件。
     * crontab -ir : 删除 crontab 文件前提醒用户。
     * service crond restart 新增、删除完重启
+    * tail -f /var/log/cron.log
 minute   hour   day   month   week   command
 每两个小时 
 ``` 0 */2 * * * echo "Have a break now." >> /tmp/test.txt```  
