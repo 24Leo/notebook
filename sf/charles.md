@@ -8,12 +8,15 @@
             * 配置为：*:443
         * 端口设置：charles-proxy-proxySetting    
             * 设置端口号，并启用http透明传输
-
+        * 安装证书并信任：    
+            * Help->SSL Proxying->Install Charles Root Certificate
+            * 信任
     * 手机连上相同wifi，设置wifi代理IP：PORT
         * IP代理为charlesIP：charles-help-localIpAddress
         * PORT为上述charles配置
-    * 手机设置：
-        * 连接相同wifi，设置代理IP和PORT即可
+        * 安装证书：Help->SSL Proxying->Install Charles Root Certificate on a Mobile Device or Remote Browser, 
+        * 下载安装并信任
+            * 设置-通用-关于本机-证书信任设置？
     * charles弹出弹框，选择allow即可
     * 如果想选择某一个域名，右击选择focus即可；
     * 如果仅想抓起某些域名：
