@@ -3,10 +3,15 @@
     
 * 代理手机-抓包
     * 保证手机和电脑在一个wifi中
-    * 设置代理IP：PORT
-        * IP：charles-help-localIpAddress
-        * PORT：charles-proxy-proxySetting    
+    * charles配置：
+        * https支持：charles-proxy-ssh proxy Setting 
+            * 配置为：*:443
+        * 端口设置：charles-proxy-proxySetting    
             * 设置端口号，并启用http透明传输
+
+    * 手机连上相同wifi，设置wifi代理IP：PORT
+        * IP代理为charlesIP：charles-help-localIpAddress
+        * PORT为上述charles配置
     * 手机设置：
         * 连接相同wifi，设置代理IP和PORT即可
     * charles弹出弹框，选择allow即可
