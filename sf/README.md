@@ -19,6 +19,7 @@ rm "/Users/$(whoami)/Library/Application Support/Beyond Compare/registry.dat"
 * Adobe Premiere Pro CC
     * 下载：官网
     * 破解：工具一+amtemu.v0.8.1.mac-painter.dmg（本地）
+    * 参考：http://www.xue51.com/mac/1376.html#xzdz
 ********
 
 
