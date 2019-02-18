@@ -18,7 +18,7 @@ rm "/Users/$(whoami)/Library/Application Support/Beyond Compare/registry.dat"
     * 解压文件FWMSO2016VLU，然后运行即可
 * Adobe Premiere Pro CC
     * 下载：官网
-    * 破解：工具一+amtemu.v0.8.1.mac-painter.dmg
+    * 破解：工具一+amtemu.v0.8.1.mac-painter.dmg（本地）
 ********
 
 
