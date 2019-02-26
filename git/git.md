@@ -204,6 +204,9 @@ git checkout 把版本库中的文件覆盖工作区文件
             git remote rm [remote-name]
 修改：
         git remote set-url --push [remote-name] new-url
+回退：
+        * push时-force，大公司强制不允许
+        * 反向a-b-c，变成a-b-c-d，b和d一致即可，保留你的痕迹
 重命名：
         git remote rename [old] [new]
 升级：
