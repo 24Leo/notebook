@@ -89,6 +89,7 @@ git blame [-w] file1  查看文件被修改的所有信息  （注意 git log -p
                                         （像是先回到该指定状态，后commit。即提交历史：新加一次）
 前进：回退多了
         git reset --hard commit-id
+            * 有可能commit-id忘记了，git reflog我们所有的命令
 删除文件：
         git rm file1
         git commit -m ...
