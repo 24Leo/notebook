@@ -82,7 +82,7 @@ git diff [-w] [file1]  ： 文件[file1]的改动     -w意味着空格改变不
 git blame [-w] file1  查看文件被修改的所有信息  （注意 git log -p参数）
 版本回退：
         0)回退到某一次提交(整体)： git checkout [commit-id]／file
-            * 丢掉工作区的修改
+            * checkout 丢掉工作区的修改
             * 对于file来说：回到最近一次git commit/add 的状态（可以理解为commit之前也有add）
             * 对于commitId来说：回到最近一次git commit 的状态
         1)仍在工作区未add:  git checkout --filename1  返回到最近的已提交状态
