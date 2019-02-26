@@ -69,7 +69,7 @@ git log [--pretty=oneline]  历史记录
         --before="date"   该日期之前的提交
         --no-merges [master]..    显示尚未合并到master的变更
         --pretty=oneline/[para] 自定义输出
-        -p [file]       显示某个文件的详细变化，
+        -p [file]       显示某个文件的详细变化(每次提交详细信息)，
         -L [s,e]:[file] 显示某个文件s~e行之间的变化
         Bname..B1name    B1分支别B分支多的内容
         Bname...Bname    两个分支不同之处
