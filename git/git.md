@@ -80,7 +80,7 @@ git reflog   查看历史commit-id(包括已经被删除的commit记录)
 git diff [-w] [file1]  ： 文件[file1]的改动     -w意味着空格改变不会显示 
         * diff 默认对比的是暂存区和工作区的不同
 git blame [-w] file1  查看文件被修改的所有信息  （注意 git log -p参数）
-版本回退：
+[版本回退](https://dev.to/neshaz/when-to-use-git-reset-git-revert--git-checkout-18je)：
         0)回退到某一次提交(整体)： git checkout [commit-id]／file
             * checkout 丢掉工作区的修改
             * 对于file来说：回到最近一次git commit/add 的状态（可以理解为commit之前也有add）
