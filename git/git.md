@@ -39,6 +39,8 @@ $git config --global core.fileMode false 文件权限变更不属于变化
             *a/a*       忽略所有以a结尾/开头的文件
     只能作用于 Untracked Files，也就是那些从来没有被 Git 记录过的文件。
     正确的做法是在每个clone下来的仓库中手动设置不要检查特定文件的更改情况。git update-index --assume-unchanged PATH    在PATH处输入要忽略的文件。
+开源库：https://github.com/github/gitignore
+        * 自主组合即可
 销毁git库：
         rm -rf .git即可
 ```
