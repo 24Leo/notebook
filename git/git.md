@@ -86,8 +86,8 @@ git log [--pretty=oneline]  历史记录
         git log -p git.md       git.md的提交和具体改变
 git reflog   查看历史commit-id(包括已经被删除的commit记录)
 git diff [-w] [file1]  ： 文件[file1]的改动     -w意味着空格改变不会显示 
-        * diff 默认对比的是暂存区和工作区的不同，而非add之后的。
-        * 如果想比较add之后的：git diff --cached 
+        * diff 默认对比的是暂存区和工作区的不同。
+        * 如果想比较暂存和本地库之后的：git diff --cached 
 git blame [-w] file1  查看文件被修改的所有信息  （注意 git log -p参数）
 [版本回退](https://dev.to/neshaz/when-to-use-git-reset-git-revert--git-checkout-18je)：
         0)回退到某一次提交(整体)： git checkout [commit-id]／file
