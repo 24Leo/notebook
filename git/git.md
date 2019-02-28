@@ -24,7 +24,7 @@ $git config [--global/system] core.editor vim/emacs    设默认编辑器
 $git config [--global/system] merge.tool vimdiff       比较工具
 $git config --global core.fileMode false 文件权限变更不属于变化
 写忽略文件：Git工作区的根目录编写 .gitignore文件(init之前写)
-        规则：
+        规则：(一行一个)
             #   代表注释
             *   代表任意字符或字符串
             ！  不忽略
