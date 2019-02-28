@@ -33,6 +33,7 @@ $git config --global core.fileMode false 文件权限变更不属于变化
             *.md        忽略所有 .md文件
             !tt.md      忽略除tt.md的所有 .md文件
             folder      忽略folder文件夹及子文件
+                    /folder 忽略folder文件
             folder/     忽略该目录
             *.[o]       忽略所有 .o文件
             *a/a*       忽略所有以a结尾/开头的文件
