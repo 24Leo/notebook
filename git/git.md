@@ -60,6 +60,9 @@ git add file1 file2 ... :添加文件
 git add ./-A/-u  :  添加所有除了删除的/添加所有/添加除新建之外的
 git add -p      交互式提交某些内容
 git commit -m "instruction" [-a] :  提交的说明。加[-a]只对已提交过的文件有效
+        * 普通的管理系统管理那些文件变更了以及文件具体内容的变更，但是Git对文章整体快照，对快照建立索引。对比指纹看那些变更了，如果整体未变则不保存，仅快照复制。
+* 比如add一个变更的文件，别commit，然后删除变更后在add，你会发现work tree是干净的
+
 git status  : 仓库状态
 git log [--pretty=oneline]  历史记录
     参数：
@@ -102,7 +105,7 @@ git blame [-w] file1  查看文件被修改的所有信息  （注意 git log -p
         git rm file1
         git commit -m ...
 删除恢复：
-        git checkout --file
+        git checkout --file ：最近一次commit、add
 HEAD永远指向当前工作分支
 git checkout 把版本库中的文件覆盖工作区文件
 分支：
