@@ -64,7 +64,8 @@ git status  : 仓库状态
     * 普通的管理系统管理那些文件变更了以及文件具体内容的变更，
         但是Git对文章整体快照，对快照建立索引。
         对比指纹看那些变更了，如果整体未变则不保存，仅快照复制。
-    * 比如add一个变更的文件，别commit，然后删除变更后在add，你会发现work tree是干净的
+    * 比如add一个变更的文件，别commit，然后删除变更后在add，
+        你会发现work tree是干净的
 git log [--pretty=oneline]  历史记录
     参数：
         --oneline   一行显示
