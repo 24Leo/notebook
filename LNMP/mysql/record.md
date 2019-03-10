@@ -15,6 +15,7 @@
         * insert intension gap lock：是gap特例，而不是意向锁。作用是**insert时**说明自己在某个区间插入，只要大家不插入相同记录就不会互相锁住。
         
 3、插入insert：插入时会对插入的记录加上record锁，仅锁住该行。但是插入之前会获得insert intension gap lock也就是某个范围，所以如果大家不插入相同记录不会有问题，如果相同那么都会去获得这个记录的record锁而发生死锁。
+    * 如果一个在插入了，另外的就会变成获取共享锁
 
 4、innodb默认rr模式下：
     * select ... from ... where ... 默认不加锁
