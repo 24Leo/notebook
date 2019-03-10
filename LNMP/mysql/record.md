@@ -9,8 +9,8 @@
     * 表锁：仅在set autocommit=0是有效
 
 2、行锁：
-    * 共享：读
-    * 排他：写
+    * 共享：读，s-record lock
+    * 排他：写，x-record lock
     * gap：    
         * record lock：仅锁住一行（insert 插入时，仅锁住插入的这一行）
             * 锁住的是索引，而不是记录！！！
