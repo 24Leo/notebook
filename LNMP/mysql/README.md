@@ -26,6 +26,7 @@ SELECT id, article_id, subtitle FROM igc_sfp_article_delivery WHERE (channel = '
 * [优化](youhua.md)
 * [mysql-连接与线程](conn_t.md)
 * [映射关系实例](exam.md)
+* [锁](record.md)
 
 
 [返回目录](../README.md)
