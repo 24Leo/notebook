@@ -17,4 +17,6 @@
 3、插入insert：插入时会对插入的记录加上record锁，仅锁住该行。但是插入之前会获得insert intension gap lock也就是某个范围，所以如果大家不插入相同记录不会有问题，如果相同那么都会去获得这个记录的record锁而发生死锁。
 
 
+
+
 [return](README.md)
