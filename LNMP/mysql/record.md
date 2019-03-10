@@ -26,6 +26,8 @@
     * insert ... on duplicate key update：如果有冲突直接加排他锁
     * replace ：无冲突和insert一样否则也是直接排他锁
     * insert into T ... select ... from S ： T上和insert同，S上加共享nk锁
+    * 自增列锁：全表排他锁
+    * 外键：索引记录上加共享record lock
 
 
 [return](README.md)
