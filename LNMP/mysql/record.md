@@ -23,6 +23,7 @@
     * select ... for update：扫描到的所有索引记录上加 x|nk锁，同时主键上加排他锁
     * update、delete ... where：加nk，同时主键加排他
     * insert：先加gap意向锁，然后加record锁（注意死锁）
+    * insert ... on duplicate key update：如果有冲突直接加排他锁
 
 
 [return](README.md)
