@@ -24,6 +24,8 @@
     * update、delete ... where：加nk，同时主键加排他
     * insert：先加gap意向锁，然后加record锁（注意死锁）
     * insert ... on duplicate key update：如果有冲突直接加排他锁
+    * replace ：无冲突和insert一样否则也是直接排他锁
+    * insert into T ... select ... from S ： T上和insert同，S上加共享nk锁
 
 
 [return](README.md)
