@@ -27,6 +27,7 @@
 
 4、innodb默认rr模式下：
     * select ... from ... where ... 一致性读，默认不加锁
+        * 隔离级别为最高serializable会加nk
     * select ... lock in share mode：扫描到的任何索引记录上加 s|nk，同时主键索引上加排他锁
     * select ... for update：扫描到的所有索引记录上加 x|nk锁，同时主键上加排他锁
     * update、delete ... where：加nk，同时主键加排他
