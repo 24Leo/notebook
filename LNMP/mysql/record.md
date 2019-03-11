@@ -38,7 +38,9 @@
         * update更新主键索引时，对二级加s-record
     * insert：先加gap意向锁，然后加record锁（注意死锁）
         * duplicate key重复时申请读锁
-    * insert ... on duplicate key update：如果有冲突直接加排他锁
+    * insert ... on duplicate key update：如果有冲突直接加排他锁    
+        * 主键冲突：排他锁
+        * 唯一键冲突：x|nk
     * replace ：无冲突和insert一样否则也是直接排他锁
     * insert into T ... select ... from S ： T上和insert同，S上加共享nk锁
     * 自增列锁：全表排他锁
