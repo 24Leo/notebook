@@ -34,6 +34,7 @@
     * select ... lock in share mode：扫描到的任何索引记录上加 s|nk，同时主键索引上加排他锁
     * select ... for update：扫描到的所有索引记录上加 x|nk锁，同时主键上加排他锁
     * update、delete ... where：加nk，同时主键加排他
+        * 上述三个如果也是用唯一索引定位唯一行那么也是加record lock
     * insert：先加gap意向锁，然后加record锁（注意死锁）
     * insert ... on duplicate key update：如果有冲突直接加排他锁
     * replace ：无冲突和insert一样否则也是直接排他锁
