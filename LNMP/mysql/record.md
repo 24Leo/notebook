@@ -27,6 +27,7 @@
         
 3、插入insert：插入时会对插入的记录加上record锁，仅锁住该行。但是插入之前会获得insert intension gap lock也就是某个范围，所以如果大家不插入相同记录不会有问题，如果相同那么都会去获得这个记录的record锁而发生死锁。
     * 如果一个在插入了，mysql会检测重复，另外的就会变成获取共享锁s|nk
+    * ![](/assets/347bc4c468ee6f58b707c5c9e6626bcddf5c1811.png)
 
 4、innodb默认rr模式下：
     * select ... from ... where ... 一致性读，默认不加锁，读快照
