@@ -9,7 +9,7 @@ ONT、AE、ZIL、EOS
 IOST、BLZ、BTM
 AE  EOS ZIL现在白菜价
 
-IPFS
+BTM、IOST 大户占比很高，LRC散户太多了，没有必要
 
 长期：ONT、AE、zil、BLZ、BTM、ada、iost、ruff
 埋伏：yee、safe
