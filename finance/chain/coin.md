@@ -5,8 +5,8 @@
 * ONT有大庄！！
 
 BTC、ETH
-ONT、AE、ZIL、EOS
-IOST、BLZ、BTM
+ONT、HT、TCT
+IOST、AE、ZIL、BLZ、BTM
 AE  EOS ZIL现在白菜价
 
 BTM、IOST 大户占比很高，LRC散户太多了，没有必要
