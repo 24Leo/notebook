@@ -11,7 +11,7 @@ AE ZIL IOST现在白菜价
 
 BTM、IOST 大户占比很高，LRC散户太多了，没有必要
 
-长期：ONT、AE、zil、BLZ、BTM、ada、iost、ruff
+长期：ONT、AE、zil、BLZ、BTM、iost、ruff
 埋伏：yee、safe
 
 <hr>
