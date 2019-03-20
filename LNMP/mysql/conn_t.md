@@ -64,5 +64,6 @@ mysql_insert为例
         |-binlog_long_row
 ```
 
+* mysql实例使用的内存是管理在**连接对象**里面的，所以长连接。。。。不释放内存，很容易导致
 
 [return](README.md)
