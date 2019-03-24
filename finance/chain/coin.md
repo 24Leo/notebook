@@ -7,7 +7,7 @@
 BTC、ETH
 ONT、HT、TCT
 IOST、AE、ZIL、BLZ、BTM
-AE ZIL IOST现在白菜价 
+AE ZIL IOST现在白菜价
 
 BTM、IOST 大户占比很高，LRC散户太多了，没有必要
     * BTM还不如AE，至少AE提出了预言机解决方案
