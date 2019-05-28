@@ -1,4 +1,5 @@
 ##[升级使用](http://www.cnblogs.com/zhangs1986/p/4914125.html)
+[explain](https://segmentfault.com/a/1190000008131735#articleHeader5)
 ###查看默认配置
 mysql --help | grep my.cnf。
 查看所有配置文件路径
