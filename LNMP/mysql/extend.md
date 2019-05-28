@@ -94,8 +94,8 @@ mysql --help | grep my.cnf。
 这10个具体步骤是:
 
     1. FROM: from子句中的两个表首先进行交叉连接(笛卡尔积), 生成虚拟表VT1
-    2. ON: on条件作用在VT1上, 将条件为True的行生成VT2。
-    2.1 join
+    2. ON: on条件作用在VT1上, 将条件为True的行生成VT2。 
+    3. join 
         * from后面的表关联，是自右向左解析的
         * 尽量把数据量小的表放在最右边来进行关联（用小表去匹配大表）
     3. OUTER: 如果outer join被指定, 则根据外连接条件, 将左表or右表or多表的未出现在VT2查询结果中的行加入到VT2后生成VT3。
