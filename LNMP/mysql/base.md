@@ -1,8 +1,8 @@
 mysql技术内幕：sql编程／InnoDb引擎，高性能Mysql，数据库索引设计和优化（DBA进阶）
 
 [安装](../LNMP/PHP/settings.md)
-##基础：
-数据库通常分为层次式数据库、网络式数据库和关系式数据库三种。
+##[基础]()：
+数据库通常https://juejin.im/post/5ccb01196fb9a03217282ee2#heading-35分为层次式数据库、网络式数据库和关系式数据库三种。
 * 
 层次式：IMS(Information Management System)是其典型代表
 * 
