@@ -121,10 +121,11 @@ mysql --help | grep my.cnf。
 5 因此确定第5步 order by avg(s_score) desc 
 ```
 
+from  on  join（生成虚表）  where
 
 ####注意事项:
     * 第一步中FROM: 需要对两表同时存在的列添加前缀, 以免混淆.
-    * 第二步中ON: 在SQL特有的三值逻辑(true,false,unknown)中, unkown的值也是确定的, 只是在不同情况下有时为true, 有时为false. 一个总的原则是: unknown的值非真即假, 非假即真. 也就是时说, unknown只能取true和false里面的一个值, 但是unknown的相反还是unknown.如:在ON、WHERE和HAVING中做过滤条件时, unknown看做false;在CHECK约束中, unknown被看做是true;在条件中, 两个NULL的比较结果还是Unknown.在UNIQUE和PRIMARY KEY约束、排序和分组中, NULL被看做是相等的. 例如Group by 将null分为一组, 而order by将所有null排在一起.
+    * 第二步中ON: 在SQL特有的三值逻辑(true,false,unknown)中, unkown的值也是确定的, 只是在不同情况下有时为true, 有时为false. 一个总的原则是: unknown的值非真即假, 非假即真. 也就是时说, unknown只能取true和false里面的一个值, 但是unknown的相反还是unknown.如:在ON、WHERE和HAVING中做过滤条件时, unknown看做false;在CHECK约束中, unknown被看做是true;在条件中, 两个NULL的比较结果还是Unknown.在UNIQUE和PRIMARY KEY约束、排序和分组中, NULL被看做是相等的. 例如Group by 将null分为一组, 而order by将所有null排在一起.之后join
     * 第三步中OUTER: 如果多余两张表, 则将VT3和FROM中的下一张表再次执行从第一步到第三步的过程.
     * 第四步中WHERE: 由于此刻没有分组, 也没有执行select所以, where子句中不能写分组函数, 也不能使用表的别名. 并且, 只有在外连接时, on和where的逻辑才是不同的, 因此建议连接条件放在on中.
     * 第五步中GROUP BY: 如果查询中包含Group by 子句, 那么所有的后续操作(having, select等)都是对每一组的结果进行操作.Group by子句中可以使用组函数, 在Sql 2000中一旦使用组函数, 其后面的步骤将都不能处理, 而在Sql2005中没有这个限制.
