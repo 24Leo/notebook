@@ -54,6 +54,10 @@ SQL语句分为三种：DML（Data Manipulation Language）与DDL(Data Definitio
     =  >  <   <=  >=  ！= 
 逻辑操作符：
     not、！     or、||      XOR         and、&&
+通配符 
+    * % 匹配0～n个
+    * _ 匹配1个
+    * [] 匹配字符集
     ```
 ###数据类型：
 ```C++
