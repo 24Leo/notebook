@@ -72,7 +72,7 @@ lsof +D /usr/local/ 同上，但是会搜索目录下的目录，时间较长
 lsof -d 4 显示使用fd为4的进程
 lsof -i 用以显示符合条件的进程情况
 lsof -i[46] [protocol][@hostname|hostaddr]:[service|port]
-46 --> IPv4 or IPv6
+        46 --> IPv4 or IPv6
 protocol --> TCP or UDP
 hostname --> Internet host name
 hostaddr --> IPv4地址
