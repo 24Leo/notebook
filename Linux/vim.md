@@ -2,9 +2,9 @@
 [macvim](mvim.md)
 # Vim环境
 VIM编码共涉及四个选项：encoding、fileencoding、fileencodings、termcoding；
-    * encoding：vim内部编码格式；包括缓冲区、消息文本、菜单等
     * fileencoding：vim打开的 文件的编码格式。
     * fileencodings：vim在打开文件的时候逐一探测这个选项内值，如果探测成功，则赋值给fileencoding，从而打开文件；
+    * fileencoding：vim打开的 文件的编码格式。
     * termcoding：终端编码格式。一般不会用到；
     * encoding：vim内部编码格式；包括缓冲区、消息文本、菜单等
 
