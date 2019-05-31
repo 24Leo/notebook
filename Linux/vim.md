@@ -8,12 +8,15 @@ VIM编码共涉及四个选项：encoding、fileencoding、fileencodings、termc
     * termcoding：终端编码格式。一般不会用到；
     * encoding：vim内部编码格式；包括缓冲区、消息文本、菜单等
 
+
 工作方式：
     * 使用.vimrc内encoding编码打开vim，设置缓冲区、消息文本等
     * 在打开文件的时候逐一探测编码集合，如果找到则赋值给fileencoding，打开文件。
 所以unicode格式编码一般写在前面，latin格式写在后面。默认没有匹配用latin
     * 打开文件时对比fileencoding和encoding编码，如果不同则按照encoding编码格式转化文件内容，并放倒新的缓冲区中，然后可以编辑文件；
     * 保存文件时，如果fileencoding和encoding不同，按照fileencoding编码格式将缓冲区内容写入文件中；
+ ![](/assets/image2019-5-4_21-3-27.png)
+ * 保存时一样，
  
 
 ### 1、安装Vim和Vim基本插件:
