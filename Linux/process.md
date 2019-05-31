@@ -73,11 +73,11 @@ lsof -d 4 显示使用fd为4的进程
 lsof -i 用以显示符合条件的进程情况
 lsof -i[46] [protocol][@hostname|hostaddr]:[service|port]
         46 --> IPv4 or IPv6
-protocol --> TCP or UDP
-hostname --> Internet host name
-hostaddr --> IPv4地址
-service --> /etc/service中的 service name (可以不止一个)
-port --> 端口号 (可以不止一个)
+        protocol --> TCP or UDP
+        hostname --> Internet host name
+        hostaddr --> IPv4地址
+        service --> /etc/service中的 service name (可以不止一个)
+        port --> 端口号 (可以不止一个)
 ```
 ##查看进程所在目录
 Linux在启动一个进程时，系统会在/proc下创建一个以PID命名的文件夹，在该文件夹下会有我们的进程的信息，其中包括一个名为exe的文件即记录了绝对路径，通过ll或ls –l命令即可查看。
