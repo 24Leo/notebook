@@ -19,6 +19,7 @@ SELECT id, article_id, subtitle FROM igc_sfp_article_delivery WHERE (channel = '
 
 1. [基础知识](base.md)
 1. [扩展使用](extend.md)
+1. [必知必会上](know1.md)
 1. [知识点](know.md)
 1. [脏读、幻读等](read.md)
 1. [索引及B－＋树](index.md)
