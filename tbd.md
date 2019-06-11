@@ -26,15 +26,7 @@
 苹果研发中心。
 
 
-https://www.zhihu.com/question/23067277
-
-新宇，新电，益进，盟拓还在发展，新电是传统IT的黄埔军校哈，给苏州IT培养了很多人才。
-高级版本就是oracle,cisco，有产品，高端点。
-
-智慧芽
-思必驰
-通付盾
-
+![知乎1-好好看](https://www.zhihu.com/question/23067277)
 
 
 
