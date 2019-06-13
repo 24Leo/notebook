@@ -25,7 +25,7 @@ PHP 脚本在服务器上执行，然后向浏览器发送回纯 HTML 结果。
     * //here
     
 
-### [抽象类和接口](https://blog.csdn.net/sunlylorn/article/details/6124319)
+#### [抽象类和接口](https://blog.csdn.net/sunlylorn/article/details/6124319)
     * 抽象类abstract，不能直接实例化。用extends关键词，继承后只有子类实现所有的abstract函数才能实例化，abstract函数的访问权限必须是子类宽于父类。不能同时多个，可以多重继承
     * 接口interface，没有实例化概念，使用implements关键词，没有属性，只能声明方法，但是可以定义常量，可以同时多个实现但是需要保证没有重名方法，而且必须实现所有的方法。接口不可以实现另外一个接口，但是没有继承多个
     * 可以同时继承一个父类，以及实现多个接口，
