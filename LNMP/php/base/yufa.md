@@ -23,6 +23,7 @@ PHP 脚本在服务器上执行，然后向浏览器发送回纯 HTML 结果。
 * 在.html中，嵌入的PHP代码会被php解释成纯html语言
 * **?>关闭标记之后都会被当作输出信息、html信息返回。**
     * //here
+    
 
 * [抽象类和接口](https://blog.csdn.net/sunlylorn/article/details/6124319)
     * 抽象类abstract，不能直接实例化。用extends关键词，继承后只有子类实现所有的abstract函数才能实例化，abstract函数的访问权限必须是子类宽于父类。不能同时多个，可以多重继承
