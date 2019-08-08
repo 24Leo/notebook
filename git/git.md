@@ -99,7 +99,7 @@ git blame [-w] file1  查看文件被修改的所有信息  （注意 git log -p
                  git reset --soft HEAD~[i]  回退（之后的变化处在暂存区，commit即可,但历史亦无）
                 * 注意：回去后，git log没有了之后的。好比21世纪回到19世纪，看不到20世纪了（想看之前的通过git reflog即可）。
                 * reset可以回退版本，也可以将暂存区修改回到工作区
-        3)特殊： git revert [HEAD~/commid-id]   把该提交取消
+        3)特殊： git revert [HEAD~/commid-id]   反向到该提交的地方
                                         （像是先回到该指定状态，后commit。即提交历史：新加一次）
 前进：回退多了
         git reset --hard commit-id
